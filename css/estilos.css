@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  --fontPrincipal: 'Zen Kaku Gothic New', sans-serif;
+  --colorPrincipal: black; }
+
+.textContainer, .cardsContainer, .cardText, .frequentQuestions, .preguntas {
+  display: flex;
+  flex-direction: column; }
+
+.logo, .instagram, .facebook, .principal {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 30%; }
+
+/* Header */
+header {
+  border-bottom: solid black; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+ul {
+  display: flex;
+  list-style: none; }
+
+.containerLeft .containerCenter .containerRight {
+  margin: 50px;
+  text-decoration: none; }
+
+.listItem {
+  margin: 10px;
+  padding: 3px;
+  padding-right: 9px;
+  border-right: solid grey 1px; }
+
+/* Button */
+.btnNav {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border-color: black; }
+
+/* a */
+.aNav {
+  color: var(--colorPrincipal);
+  text-decoration: none;
+  font-family: var(--fontPrincipal);
+  font-weight: 700;
+  font-size: 18px; }
+
+/* MAIN */
+/* Sección Inicio */
+.presentationContainer {
+  display: flex;
+  justify-content: space-between; }
+
+.books {
+  width: 100%;
+  height: 10%; }
+
+h5 {
+  font-family: var(--fontPrincipal);
+  color: whitesmoke;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: color white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
+  width: 100%; }
+
+.titleContainer {
+  margin-top: 100px;
+  margin-left: 300px;
+  text-decoration: underline; }
+
+.textContainer {
+  font-family: var(--fontPrincipal); }
+
+.textContent {
+  margin: 50px;
+  margin-top: 200px;
+  margin-left: 180px;
+  font-family: var(--fontPrincipal);
+  font-size: 20px; }
+
+/* Sección Nosotros */
+.nosotros {
+  font-family: var(--fontPrincipal);
+  color: var(--fontPrincipal);
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  animation-duration: 1s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 400%; }
+  to {
+    margin-left: 40%;
+    width: 100%; } }
+
+/* Sección Suscribite */
+.cardsContainer {
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.227); }
+
+.cardText {
+  width: 550px;
+  align-items: center;
+  justify-content: space-around; }
+
+.cardContainer, .cardContainer2 {
+  display: flex;
+  justify-content: space-between; }
+
+.cardContainer2 {
+  background-color: white; }
+
+.cardImg {
+  width: 600px;
+  height: 480px; }
+
+.cardText {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.cardTitle {
+  font-family: var(--fontPrincipal);
+  font-size: 40px;
+  font-weight: 900; }
+
+.cardP {
+  font-family: var(--fontPrincipal);
+  font-size: 20px;
+  line-height: calc(2);
+  margin: 10px; }
+
+/* Contacto */
+.contact {
+  width: 400px;
+  height: 400px;
+  margin-left: 20px; }
+
+.frequentQuestions {
+  justify-content: center; }
+
+.b-frequentQ {
+  background-image: url(https://cdn.shopify.com/s/files/1/0780/2665/files/torre_home_web_480x480.jpg?v=1591176919);
+  background-size: cover; }
+
+.preguntas {
+  justify-content: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-family: var(--fontPrincipal);
+  color: var(--colorPrincipal);
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  line-height: calc(2); }
+
+.questions {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: var(--fontPrincipal);
+  color: white;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 15px 15px 15px 15px; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--fontPrincipal);
+  color: white;
+  text-align: center;
+  padding: 15px 15px 15px 15px; }
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--fontPrincipal);
+  color: white;
+  text-align: center; }
+
+.formatoRespuesta {
+  list-style: none;
+  color: var(--colorPrincipal);
+  font-size: 14px;
+  line-height: 20px; }
+
+.formatoPregunta {
+  color: var(--colorPrincipal);
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: var(--fontPrincipal); }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black; }
+
+.principal {
+  margin-top: 10px; }
+
+.container-logos {
+  display: flex;
+  justify-content: space-around; }
+
+.seguinos {
+  font-family: var(--fontPrincipal);
+  color: white; }

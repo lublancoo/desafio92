@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.instagram {
+    @extend %logos;
+
+}
+
+.facebook {
+    @extend %logos;
+}
+
+.principal {
+    @extend %logos;
+    margin-top: 10px;
+}
+
+.container-logos {
+    display: flex;
+    justify-content: space-around;
+}
+.seguinos {
+    font-family: var(--fontPrincipal);
+    color: white;
+}

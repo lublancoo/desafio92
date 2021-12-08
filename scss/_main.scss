@@ -1,0 +1,126 @@
+/* MAIN */
+
+/* Sección Inicio */
+.presentationContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.books {
+    width: 100%;
+    height: 10%;
+  
+}
+h5 {
+    font-family: var(--fontPrincipal);
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: color white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    width: 100%;
+}
+
+.titleContainer {
+    margin-top: 100px;
+    margin-left: 300px;
+    text-decoration: underline;
+
+    }   
+.textContainer {
+    @extend %display;
+    font-family: var(--fontPrincipal);
+}
+
+.textContent {
+    margin: 50px;
+    margin-top: 200px;
+    margin-left: 180px;
+    font-family: var(--fontPrincipal);
+    font-size: 20px;
+}
+
+/* Sección Nosotros */
+ .nosotros {
+     font-family: var(--fontPrincipal);
+     color: var(--fontPrincipal);
+     font-size: 20px;
+     text-align: center;
+     padding: 50px;
+     animation-duration: 1s;
+     animation-name: slidein;
+       
+       }
+ 
+       @keyframes slidein {
+         from {
+           margin-left: 100%;
+           width: 400%;
+         }
+       
+         to {
+           margin-left: 40%;
+           width: 100%;
+ 
+         }
+ 
+ }
+
+  /* Sección Suscribite */
+  .cardsContainer {
+    @extend %display;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.227);
+}
+.cardText {
+    @extend %display;
+    width: 550px;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardContainer, .cardContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContainer2{
+    background-color: white;
+}
+
+.cardImg {
+    width: 600px;
+    height: 480px;
+}
+.cardText {
+
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardTitle{
+  font-family: var(--fontPrincipal);
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+.cardP {
+  font-family: var(--fontPrincipal);
+ font-size: 20px;
+  line-height:calc(2);
+  margin: 10px;
+  
+}
+
+
+/* Contacto */
+
+.contact {
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+}

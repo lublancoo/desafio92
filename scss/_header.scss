@@ -1,0 +1,55 @@
+/* Header */
+
+header {
+    border-bottom: solid black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo {
+  @extend %logos
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.containerLeft .containerCenter .containerRight {
+  margin: 50px;
+  text-decoration: none;
+
+}
+
+
+.listItem {
+    margin: 10px;
+    padding: 3px;
+    padding-right: 9px;
+    border-right: solid grey 1px;
+}
+
+/* Button */
+.btnNav {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: black;
+
+}
+
+/* a */
+.aNav {
+    color: var(--colorPrincipal);
+    text-decoration: none;
+    font-family: var(--fontPrincipal);
+    font-weight: 700;
+    font-size: 18px;
+
+}
